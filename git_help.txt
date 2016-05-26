@@ -1,0 +1,49 @@
+Hello,
+
+github is an online version control tool. It gives you an advantage to work from any computer (given, you have git installed on it)
+
+You need to create an account on github (https://github.com)
+
+You also need to download and install git on your computer (https://git-scm.com/downloads)
+
+Step 1: Create a repository on github.
+
+Step 2: Open git bash
+
+Step 3: create a folder where you want to import your piece of work from github
+
+mkdir <folder_name>
+
+cd <folder_name>
+
+Step 4: Initialize using the following command:
+
+git init
+
+Step 5: Import your piece of work from github to your local
+
+git clone <URL of your github repository>
+
+example: git clone https://github.com/username/repository
+
+Step 6: you can create a remote using:
+
+git remote add datacon <URL of your repository>
+
+Step 7: Modify your existing file of create a new file.
+
+Step 8: Check the status using the command “git status”
+
+Step 9: Prepare the file for committing:
+
+git add <file_name>
+
+Step 10: Commit (the message can be any descriptive message provided by you)
+
+git commit –m “descriptive message”
+
+Step 11: Push your changes from your local to github (datacon is the connection we created in step 6 and master is the branch you are committing the changes in)
+
+git push datacon master
+
+Now your changes should be there in your gethub directory.
